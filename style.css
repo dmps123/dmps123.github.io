@@ -1,0 +1,705 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(36, 20, 14, 0.9);
+  height: 85px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+.header-left {
+  float: left;
+}
+.header-left img {
+  height: 85px;
+}
+
+.header-left img:hover {
+  opacity: 0.7;
+  transition: all 1s;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  float:left;
+  font-family: 'Anton', sans-serif;
+  height: 85px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.header-link {
+  display: inline-block;
+  padding: 0 30px;
+  line-height: 85px;
+  color: white;
+}
+
+.header-link:hover {
+  color: rgba(255,255,255,0.5);
+  transition: all 1s;
+}
+
+.top-wrapper {
+  background-image: url("images/kabegami03.jpg");
+  background-size: 100% 100%;
+  height: 1100px;
+  padding: 180px 0 100px 0;
+  color: white;
+  display: none;
+  
+}
+
+.top-message h1 {
+  font-size: 6.25rem;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  display: none;
+}
+
+#danball-orange-right {
+  padding-right: 15px;
+  color: #ee7800;
+}
+
+#danball-orange-left {
+  padding-left: 15px;
+  color: #ee7800;
+}
+
+.top-btn {
+  margin-top: 130px;
+  display: none;
+}
+
+.official-img {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.official-img:hover {
+  opacity: 0.7;
+  transition: all 1s;
+}
+
+.official-link {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #24140e;
+  opacity: 0.8;
+  color: white;
+  font-size: 1.56rem;
+  font-weight: normal;
+  border-radius: 5px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+}
+
+.official-link:hover {
+  background-color: #00984f;
+  opacity: 0.8;
+  transition: all 1s;
+}
+
+.about-wrapper {
+  background-color: #080202;
+  height: 580px;
+  text-align: center;
+}
+
+.about-message {
+  padding: 80px 0 50px 0;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.about-message p {
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.about-message h2 {
+  font-size: 1.43rem;
+  font-weight: normal;
+}
+
+.line-orange {
+  display: block;
+  height: 2px;
+  background-color: #ee7800;
+  border: 0;
+  margin-bottom: 40px;
+}
+
+.title-icon {
+  float: left;
+  width: 33%;
+}
+
+.title-icon img {
+  width: 350px;
+  opacity: 0.5;
+}
+
+.title-icon img:hover {
+  opacity: 1;
+}
+
+.story-wrapper {
+  background-color: #080202;
+  height: 820px;
+  text-align: center;
+}
+
+.story-title {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  padding-bottom: 30px;
+}
+
+.story-title p {
+  line-height: 1.7;
+}
+
+.text-margin {
+  padding: 30px 0;
+}
+
+.carousel-images {
+  width: 470px;
+  margin: 0 auto;
+}
+
+.story-image {
+  width: 450px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+/*カルーセルCSS*/
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-dots li .slick-active button:before {
+  color: #fff;
+}
+/*ここまで*/
+
+.character-wrapper {
+  background-color: #080202;
+  height: 510px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.character-title {
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.chara-contents {
+  position: relative;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.chara-btn {
+  position: relative;
+  float: left;
+  text-align: left;
+}
+
+.chara-btn p {
+  position: absolute;
+  right: 13%;
+  top: 24%;
+  color: #333333;
+  font-size: 1.56rem;
+  font-weight: bolder;
+}
+
+.btn {
+  display: inline-block;
+  background-image: url(images/character/btn_image.jpg);
+  background-size: cover;
+  margin: 8px 8px;
+  height: 50px;
+  width: 310px;
+  border-radius : 0 0 0 10px;
+  opacity: 0.9;
+  z-index: 5;
+}
+
+.btn:hover {
+  transition: all 0.3s;
+  opacity: 1;
+  background-image: url(images/character/btn_image4.jpg);
+}
+
+#gouda-rad {
+  border-radius : 0 0 0 10px;
+}
+
+#gouda-name {
+  position: absolute;
+  right: 8%;
+  top: 24%;
+}
+
+.character-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  background-image: url(images/character/btn_image_cut.jpg);
+  height: 630px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+.modal-character-left {
+  float: left;
+}
+
+.modal-character-right {
+  float: right;
+  width: 300px;
+  padding: 80px 20px 100px 20px;
+  text-align: justify;
+}
+
+.modal-character-text {
+  text-align: justify;
+  line-height: 1.7;
+}
+
+#chara-name {
+  display: block;
+  font-size: 2.0rem;
+  font-weight: bolder;
+  color: white;
+  font-family: 'Nico Moji', sans-serif;
+  margin-bottom: 10px;
+}
+
+#name-furigana {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.modal-character-right p {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: normal;
+  padding: 20px 20px;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  text-align: left;
+  background: -moz-linear-gradient(#0068b7, #00afcc);
+  background: -webkit-linear-gradient(#0068b7, #00afcc);
+  background: linear-gradient(to right, #0068b7, #00afcc);
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.lbx-wrapper {
+  background-color: #080202;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.company-contents {
+  background-color: #f7f7f7;
+  height: 1050px;
+}
+
+.lbx-contents {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  margin: 0 auto;
+  display: none;
+  width: 70%;
+}
+
+.lbx-title {
+  color: #333333;
+  font-weight: bold;
+  padding: 30px 0 40px 0;
+}
+
+.lbx-title h2 {
+  letter-spacing: 2px;
+}
+
+.lbx-title p {
+  line-height: 1.7;
+}
+
+.maker-contents {
+  padding: 40px 0 70px 0;
+}
+
+.maker {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.style-six {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 40px;
+}
+
+.lbx-technology {
+  margin: 0 auto;
+}
+
+.lbx-techno {
+  float: left;
+  width: 33.3%;
+}
+
+.text-contents {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #333333;
+  text-align: left;
+  padding: 10px 0;
+  display: none;
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.text-active {
+  display: block;
+}
+
+.lbx-character {
+  padding: 55px 0 0 0;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.lbx-character-sec {
+  padding: 35px 0 0 0;
+  width: 65%;
+  margin: 0 auto;
+  display: none;
+}
+
+.lbx-chara {
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+
+.lbx-chara h3 {
+  display: inline-block;
+  font-size: 0.93rem;
+  padding: 15px 10px;
+  width: 90%;
+}
+
+.lbx-chara p {
+  display: inline-block;
+  width: 90%;
+  height: 140px;
+  font-size: 0.77rem;
+  font-weight: normal;
+  padding: 0 10px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.lbx-images {
+  width: 230px;
+  height: 280px;
+  background-image: url(images/character/btn_image3.jpg);
+  border-radius: 10px;
+}
+
+.lbx-images2 {
+  width: 230px;
+  height: 280px;
+  background-image: url(images/character/btn_image2.jpg);
+  border-radius: 10px;
+}
+
+.read-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  background-color: black;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.read-btn:hover {
+  opacity: 0.6;
+}
+
+.goods-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+  height: 1050px;
+}
+
+.goods-image {
+  padding: 20px 0;
+  text-align: left;
+  position: relative;
+  height: 100%;
+}
+
+.goods-images {
+  width: 950px;
+  opacity: 0.7;
+  display: none;
+}
+
+.over-flow-vis {
+  overflow: auto;
+}
+
+.goods-title {
+  color: #333333;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  width: 800px;
+  height: 700px;
+  display: none;
+}
+
+.goods-title h2 {
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.goods-contents {
+  color: #333333;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+.goods-read {
+  display: inline-block;
+  padding: 20px 95px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  background-color: black;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  transition: all 0.7s;
+}
+
+.goods-read:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.goods-read:active {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.goods-contents {
+  display: none;
+}
+
+.goods-text {
+  padding: 20px 20px;
+  margin: 30px 0 20px 0;
+  border: 1px solid black;
+  box-shadow: 0 0 15px rgba(0,0,0,.3);
+  font-size: 0.94rem;
+  background-color: #f7f7f7;
+}
+
+.goods-close {
+  padding: 5px 10px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  background-color: black;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 80px;
+  float: right;
+}
+
+.goods-close:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.goods-contents a:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.float-clear {
+  overflow: hidden;
+}
+
+.goods-contents h3 {
+  display: block;
+  color: white;
+  background-color: #080202;
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: left;
+  padding: 5px 0 5px 10px;
+  margin: 10px 0 30px 0;
+}
+
+.goods-product {
+  float: left;
+  width: 18%;
+}
+
+.pk-size {
+  width: 130px;
+  height:100px;
+  padding: 5px 5px;
+}
+
+.goods-text p {
+  padding: 20px 0 20px 10px;
+  text-align: justify;
+  line-height: 1.7;
+  width: 93%;
+}
+
+.goods-history {
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  background-color: black;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all 0.7s;
+  float: right;
+}
+
+.goods-history:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.footer-wrapper {
+  background-color: #080202;
+  text-align: center;
+}
+
+.footer-map a {
+  color: white;
+  padding: 0 10px;
+}
+
+.footer-map a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.footer-map ul {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+.footer-map li {
+  position: relative;
+  left: -50%;
+  float: left;
+  padding-top: 50px;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+}
+
+.footer-logo img {
+  padding: 60px 20px 0 20px;
+  width: 120px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+.footer-logo img:hover {
+  opacity: 0.7;
+  transition: all 1s;
+}
+
+.footer-text {
+  font-size: 0.63rem;
+  color: white;
+  padding: 20px 0;
+}
