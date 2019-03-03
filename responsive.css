@@ -1,7 +1,7 @@
 /* タブレット向けレイアウト */
 
 /* 1000px以下のときのメディアクエリ */
-@media (max-width: 100px) {
+@media (max-width: 1200px) {
 
   html {
     font-size: 14px;
