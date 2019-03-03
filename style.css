@@ -83,7 +83,7 @@ header {
   padding: 180px 0 100px 0;
   color: white;
   display: none;
-  
+  overflow: hidden;
 }
 
 .top-message h1 {
