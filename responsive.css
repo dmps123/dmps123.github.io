@@ -1,5 +1,33 @@
 /* タブレット向けレイアウト */
 
+
+/* 1300px以下のときのメディアクエリ */
+@media (max-width: 1300px) {
+
+    .lbx-character {
+      width: 1000px;
+      margin: 0 auto;
+    }
+
+    .lbx-chara {
+      width: 25%;
+      text-align: center;
+    }
+
+    .lbx-chara p {
+      height: 180px;
+    }
+
+    #lbx-chara {
+      overflow: hidden;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+   #lbx-chara p {
+     width: 223.19px;
+   }
+  }
 /* 1000px以下のときのメディアクエリ */
 @media (max-width: 1000px) {
 
@@ -160,7 +188,7 @@
   }
 
   .goods-wrapper {
-    max-width: 100%;
+    max-width: 100%
   }
 
   .goods-image {
