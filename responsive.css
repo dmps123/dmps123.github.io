@@ -23,7 +23,9 @@
   }
 
   .text-contents {
-    height: 170px;
+    height: 180px;
+    width: 80%;
+    margin-bottom: 20px;
   }
 
   .lbx-character {
