@@ -5,12 +5,16 @@
 @media (max-width: 1300px) {
 
     .lbx-character {
-      width: 1000px;
+      width: 750px;
+      margin: 0 auto;
+    }
+    .lbx-character-sec {
+      width: 750px;
       margin: 0 auto;
     }
 
     .lbx-chara {
-      width: 25%;
+      width: 33%;
       text-align: center;
     }
 
@@ -18,15 +22,24 @@
       height: 180px;
     }
 
-    #lbx-chara {
+    .tab-mode-clear {
       overflow: hidden;
-      width: 100%;
+    }
+
+    .tab-mode {
+      width: 600px;
       margin: 0 auto;
     }
 
-   #lbx-chara p {
-     width: 223.19px;
-   }
+    .tab-mode-chara {
+      float: left;
+      width: 50%;
+    }
+
+    .tab-mode p {
+      height: 130px;
+    }
+
   }
 /* 1000px以下のときのメディアクエリ */
 @media (max-width: 1000px) {
@@ -116,11 +129,11 @@
   }
 
   .lbx-character {
-    width: 92%;
+    width: 700px;
   }
 
   .lbx-character-sec {
-    width: 92%;
+    width: 700px;
   }
 
   .lbx-chara {
