@@ -4,43 +4,65 @@
 /* 1300px以下のときのメディアクエリ */
 @media (max-width: 1300px) {
 
-    .lbx-character {
-      width: 750px;
-      margin: 0 auto;
-    }
-    .lbx-character-sec {
-      width: 750px;
-      margin: 0 auto;
-    }
-
-    .lbx-chara {
-      width: 33%;
-      text-align: center;
-    }
-
-    .lbx-chara p {
-      height: 180px;
-    }
-
-    .tab-mode-clear {
-      overflow: hidden;
-    }
-
-    .tab-mode {
-      width: 600px;
-      margin: 0 auto;
-    }
-
-    .tab-mode-chara {
-      float: left;
-      width: 50%;
-    }
-
-    .tab-mode p {
-      height: 130px;
-    }
-
+  .lbx-title {
+    width: 700px;
   }
+
+  .lbx-contents {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .lbx-technology {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .lbx-techno {
+    width: 50%;
+  }
+
+  .text-contents {
+    height: 170px;
+  }
+
+  .lbx-character {
+    width: 750px;
+    margin: 0 auto;
+  }
+  .lbx-character-sec {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .lbx-chara {
+    width: 33%;
+    text-align: center;
+  }
+
+  .lbx-chara p {
+    height: 180px;
+  }
+
+  .tab-mode-clear {
+    overflow: hidden;
+  }
+
+  .tab-mode {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .tab-mode-chara {
+    float: left;
+    width: 50%;
+  }
+
+  .tab-mode p {
+    height: 130px;
+  }
+
+}
 /* 1000px以下のときのメディアクエリ */
 @media (max-width: 1000px) {
 
@@ -163,27 +185,6 @@
     height: 130px;
   }
 
-  .lbx-contents {
-    width: 90%;
-  }
-
-  .lbx-technology {
-    width: 95%;
-  }
-
-  .lbx-techno {
-    width: 33.3%;
-  }
-
-  .lbx-tech img {
-    width: 85%;
-    height: 300px;
-  }
-
-  .text-contents {
-    padding: 20px 0;
-  }
-
   .goods-wrapper {
     height: 90%;
   }
@@ -256,3 +257,4 @@
     width: 100%
   }
 }
+
