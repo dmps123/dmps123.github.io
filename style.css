@@ -372,20 +372,21 @@ header {
 
 .company-contents {
   background-color: #f7f7f7;
-  height: 1050px;
+  height: 1100px;
 }
 
 .lbx-contents {
   font-family: 'Sawarabi Mincho', sans-serif;
   margin: 0 auto;
   display: none;
-  width: 70%;
+  width: 1170px;
 }
 
 .lbx-title {
   color: #333333;
   font-weight: bold;
   padding: 30px 0 40px 0;
+  width: 1170px;
 }
 
 .lbx-title h2 {
@@ -415,12 +416,19 @@ header {
 }
 
 .lbx-technology {
+  width: 1170px;
   margin: 0 auto;
 }
 
 .lbx-techno {
   float: left;
-  width: 33.3%;
+  width: 25%;
+}
+
+.lbx-techno img {
+  width: 280px;
+  height: 300px;
+  border: 1px solid black;
 }
 
 .text-contents {
@@ -428,8 +436,7 @@ header {
   font-weight: bold;
   color: #333333;
   text-align: left;
-  padding: 10px 0;
-  display: none;
+  padding: 10px 5px;
   width: 90%;
   margin: 0 auto;
   text-align: justify;
