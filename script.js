@@ -61,13 +61,6 @@ $(window).on("load", function() {
   $('.top-message h1,.top-btn').delay(1000).fadeIn(500);
   });
 
-// テクノロジーのホバー処理
-$('.techno-hover').hover(function() {
-    $(this).find('.text-contents').fadeIn(500).addClass('text-active');
-  }, function() {
-    $(this).find('.text-contents').fadeOut().removeClass('text-active');
-});
-
 //READ MOREボタン
 $('.read-btn').click(function() {
   var answer = $('.lbx-character-sec');
