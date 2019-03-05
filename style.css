@@ -36,6 +36,7 @@ header {
 }
 
 .container {
+  max-width: 1170px;
   width: 100%;
   margin: 0 auto;
   color: white;
@@ -87,6 +88,11 @@ header {
   overflow: hidden;
 }
 
+.top-message {
+  width: 1170px;
+  margin: 0 auto;
+}
+
 .top-message h1 {
   font-size: 6.25rem;
   font-family: 'Anton', sans-serif;
@@ -105,8 +111,9 @@ header {
 }
 
 .top-btn {
-  margin-top: 130px;
   display: none;
+  width: 1170px;
+  margin: 130px auto 0 auto;
 }
 
 .official-img {
@@ -718,3 +725,4 @@ header {
   color: white;
   padding: 20px 0;
 }
+
