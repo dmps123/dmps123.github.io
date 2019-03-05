@@ -396,6 +396,10 @@ header {
   width: 1170px;
 }
 
+.lbx-title-text {
+  font-size: 0.95rem;
+}
+
 .lbx-title h2 {
   letter-spacing: 2px;
 }
@@ -724,3 +728,4 @@ header {
   color: white;
   padding: 20px 0;
 }
+
