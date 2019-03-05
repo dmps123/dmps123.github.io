@@ -420,6 +420,7 @@ header {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   margin-bottom: 40px;
+  width: 750px;
 }
 
 .lbx-technology {
@@ -538,10 +539,6 @@ header {
   display: none;
 }
 
-.over-flow-vis {
-  overflow: auto;
-}
-
 .goods-title {
   color: #333333;
   font-family: sans-serif;
@@ -550,7 +547,7 @@ header {
   top: 15%;
   left: 40%;
   width: 800px;
-  height: 700px;
+  height: 100%;
   display: none;
 }
 
@@ -725,4 +722,3 @@ header {
   color: white;
   padding: 20px 0;
 }
-
