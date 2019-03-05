@@ -81,7 +81,7 @@ $(window).scroll(function() {
 
 
     if ($(this).scrollTop() > lbx_syousai - 400) {
-      $('.lbx-contents').fadeIn(800);
+      $('.lbx-contents').slideDown(1000);
     }
 
     if ($(this).scrollTop() > image_akiresu - 600) {
