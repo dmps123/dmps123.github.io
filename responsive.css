@@ -120,7 +120,6 @@
   .goods-product-list {
     width: 700px;
     margin: 0 auto;
-    border: 1px solid black;
   }
 
   .goods-product {
@@ -128,13 +127,12 @@
   }
 
   .pk-size {
-    width: 200px;
+    width: 230px;
     height:150px;
   }
 
   .goods-news-text {
     width: 700px;
-    border: 1px solid black;
   }
 }
 /* 1000px以下のときのメディアクエリ */
@@ -261,3 +259,4 @@
 
 
 }
+
