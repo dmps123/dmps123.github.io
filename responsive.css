@@ -4,9 +4,53 @@
 /* 1300px以下のときのメディアクエリ */
 @media (max-width: 1300px) {
 
-  html {
-    font-size: 14px;
+  .about-message {
+    width: 750px;
+    margin: 0 auto;
   }
+
+  .about-wrapper {
+    height: 700px;
+  }
+
+  #icon-first {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #icon-first img {
+    width: 45%;
+  }
+
+  .about-titles {
+    width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  .story-title {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .story-wrapper {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+
+  .title-icon {
+    width: 50%;
+    float: left;
+    padding: 10px 0;
+  }
+
+  .title-icon img {
+    width: 90%;
+    opacity: 1;
+  }
+
 
   .lbx-title {
     width: 750px;
@@ -154,35 +198,10 @@
     margin: 20px 0 0 40px
   }
 
-  .line-orange {
-    width: 90%;
-  }
-
-  .about-wrapper {
-    height: 700px;
-  }
-
   .top-wrapper {
     background-image: url("images/kabegami01.jpg");
     background-size: cover;
     height: 650px;
-  }
-
-  #icon-first {
-    overflow: hidden;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  #icon-first img {
-    width: 45%;
-  }
-
-  .about-titles {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    margin-top: 20px;
   }
 
   .story-wrapper {
