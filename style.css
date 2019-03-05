@@ -521,7 +521,7 @@ header {
 .goods-wrapper {
   background-color: #f7f7f7;
   text-align: center;
-  height: 1050px;
+  height: 1080px;
   overflow: hidden;
 }
 
@@ -703,11 +703,15 @@ header {
   letter-spacing: 3px;
 }
 
+.footer-logo {
+  margin: 30px 20px 0 20px;
+}
+
 .footer-logo img {
-  padding: 60px 20px 0 20px;
   width: 120px;
   height: 60px;
   border: 1px solid black;
+  margin-right: 10px;
 }
 
 .footer-logo img:hover {
