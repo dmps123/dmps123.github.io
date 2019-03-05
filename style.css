@@ -648,10 +648,9 @@ header {
 }
 
 .goods-text p {
-  padding: 20px 0 20px 10px;
+  padding: 20px 20px 20px 20px;
   text-align: justify;
   line-height: 1.7;
-  width: 93%;
 }
 
 .goods-history {
