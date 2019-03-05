@@ -4,17 +4,21 @@
 /* 1300px以下のときのメディアクエリ */
 @media (max-width: 1300px) {
 
+  html {
+    font-size: 14px;
+  }
+
   .lbx-title {
-    width: 700px;
+    width: 750px;
   }
 
   .lbx-contents {
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
   }
 
   .lbx-technology {
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
   }
 
@@ -65,23 +69,15 @@
   }
 
   .goods-wrapper {
-    height: 90%;
+    height: 100%;
+    margin: 0 auto;
   }
 
   .goods-title {
     width: 100%;
-    margin: 0 auto;
     top: 0;
     left: 0;
-    padding: 70px;
-  }
-
-  #style-six {
-    width: 90%;
-  }
-
-  .goods-wrapper {
-    max-width: 100%
+    padding: 70px 0;
   }
 
   .goods-image {
@@ -90,12 +86,12 @@
 
   .goods-images {
     padding: 30px 0;
-    width: 95%;
+    width: 85%;
     opacity: 0.4;
   }
 
   .goods-contents {
-    width: 90%;
+    width: 700px;
     margin: 0 auto;
   }
 
@@ -119,7 +115,7 @@
   }
 
   .goods-product-list {
-    width: 90%;
+    width: 700px;
     margin: 0 auto;
   }
 
@@ -128,12 +124,12 @@
   }
 
   .pk-size {
-    width: 140px;
-    height:100px;
+    width: 200px;
+    height:150px;
   }
 
-  .goods-text p {
-    width: 100%
+  .goods-news-text {
+    width: 700px;
   }
 }
 /* 1000px以下のときのメディアクエリ */
@@ -260,4 +256,3 @@
 
 
 }
-
