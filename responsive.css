@@ -51,7 +51,6 @@
     opacity: 1;
   }
 
-
   .lbx-title {
     width: 750px;
   }
@@ -113,7 +112,7 @@
   }
 
   .goods-wrapper {
-    height: 100%;
+    height: 1080px;
     margin: 0 auto;
   }
 
@@ -278,4 +277,3 @@
 
 
 }
-
