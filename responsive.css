@@ -51,6 +51,10 @@
     opacity: 1;
   }
 
+  .lbx-title-text {
+
+  }
+
   .lbx-title {
     width: 750px;
   }
@@ -274,6 +278,20 @@
   .tab-mode p {
     height: 130px;
   }
-
-
 }
+
+/* 750px以下のときのメディアクエリ */
+/*
+@media (max-width: 750px) {
+
+  .top-wrapper {
+    background-image: url("images/kabegami05.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 45.13%;
+  }
+
+  .about-message
+}
+*/
