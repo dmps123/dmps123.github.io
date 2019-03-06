@@ -81,10 +81,10 @@ $(window).scroll(function() {
 
 
     if ($(this).scrollTop() > lbx_syousai - 400) {
-      $('.lbx-contents').slideDown(1000);
+      $('.lbx-contents').fadeIn(800);
     }
 
-    if ($(this).scrollTop() > image_akiresu - 600) {
+    if ($(this).scrollTop() > image_akiresu - 700) {
       $('.goods-images').fadeIn(800);
       $('.goods-title').fadeIn(1400);
     }
